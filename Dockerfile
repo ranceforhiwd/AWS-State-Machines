@@ -17,10 +17,6 @@ RUN set -x \
     git \
     nano
  
-#install ghostscript
-RUN apt -y install ghostscript
- 
- 
 RUN apt-get update && apt-get install -y \
     zip \
     unzip
